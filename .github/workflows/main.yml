@@ -11,7 +11,7 @@ jobs:
     env:
       AWS_ACCESS_KEY_ID: AKIA2LQ3TBZTKIS7MPMQ
       AWS_SECRET_ACCESS_KEY: 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
-      AWS_DEFAULT_REGION: us-east-1
+      AWS_DEFAULT_REGION: eu-west-1
     steps:
       - name: Run driftctl
         uses: snyk/driftctl-action@v1.3.0
