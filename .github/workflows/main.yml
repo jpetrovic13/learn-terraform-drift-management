@@ -9,9 +9,9 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      AWS_DEFAULT_REGION: us-east-1
+      AWS_ACCESS_KEY_ID: AKIA2LQ3TBZTKIS7MPMQ
+      AWS_SECRET_ACCESS_KEY: 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
+      AWS_DEFAULT_REGION: us-west-2
     steps:
       - name: Run driftctl
         uses: snyk/driftctl-action@v1.3.0
